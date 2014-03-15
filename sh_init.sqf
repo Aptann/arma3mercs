@@ -1,0 +1,1 @@
+SH_INIT = true;

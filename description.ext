@@ -1,0 +1,20 @@
+#include "resources\common.hpp"
+
+respawn="BASE";
+respawnDelay=10;
+disableAI=1;
+
+class CfgCommunicationMenu
+{
+	class TransportBase;
+	class DropOff
+	{
+		text = "Drop off";
+		expression = "[_caller, _pos, _target, _is3D, _ID] call support_DropOff;";
+		removeAfterExpressionCall=1;
+	};
+};
+
+#include "resources\equipmentmenu.hpp"
+#include "resources\missionmenu.hpp"
+

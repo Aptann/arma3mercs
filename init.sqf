@@ -15,3 +15,5 @@ if(T_CLIENT) then {
 		[] execVM "sh_init.sqf";
 	};
 };
+
+/* skuli was here */

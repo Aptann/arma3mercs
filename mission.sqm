@@ -38,7 +38,7 @@ class Mission
 	};
 	class Groups
 	{
-		items=2;
+		items=4;
 		class Item0
 		{
 			side="WEST";
@@ -51,10 +51,12 @@ class Mission
 					azimut=-49.663601;
 					id=0;
 					side="WEST";
-					vehicle="B_G_Soldier_TL_F";
+					vehicle="B_G_officer_F";
 					player="PLAYER COMMANDER";
 					leader=1;
 					skill=0.60000002;
+					text="missionCoordinator";
+					description="Mission Coordinator";
 				};
 			};
 		};
@@ -74,6 +76,48 @@ class Mission
 					lock="LOCKED";
 					skill=0.60000002;
 					text="transportHeli";
+				};
+			};
+		};
+		class Item2
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={23496.652,90.559532,21132.174};
+					azimut=-49.663601;
+					id=2;
+					side="WEST";
+					vehicle="B_G_Soldier_TL_F";
+					player="PLAY CDG";
+					leader=1;
+					skill=0.60000002;
+					text="quartermaster";
+					description="Quartermaster";
+				};
+			};
+		};
+		class Item3
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={23497.791,90.561295,21133.588};
+					azimut=-49.663601;
+					id=3;
+					side="WEST";
+					vehicle="B_G_Soldier_TL_F";
+					player="PLAY CDG";
+					leader=1;
+					skill=0.60000002;
+					text="cheifEngineer";
+					description="Cheif Engineer";
 				};
 			};
 		};

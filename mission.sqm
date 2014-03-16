@@ -122,6 +122,16 @@ class Mission
 			};
 		};
 	};
+	class Markers
+	{
+		items=1;
+		class Item0
+		{
+			position[]={23498.523,90.665627,21132.215};
+			name="baseCenter";
+			type="Empty";
+		};
+	};
 };
 class Intro
 {
